@@ -16,7 +16,7 @@ export default function Home() {
 
         <meta
           property="og:url"
-          content="https://recording-goatube-project1-jadoo.vercel.app"
+          content="https://jadoo-travel-nextjs.vercel.app/"
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Jadoo" />
@@ -26,7 +26,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://recording-goatube-project1-jadoo.vercel.app/aplikasi-travel-online.jpg"
+          content="https://jadoo-travel-nextjs.vercel.app/aplikasi-travel-online.jpg"
         />
       </Head>
 
