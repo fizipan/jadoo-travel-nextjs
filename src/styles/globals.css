@@ -10,4 +10,16 @@
   svg.logo-style-1 .logo_svg__color-2 {
     @apply fill-accent-1;
   }
+
+  svg.decor-plus .decor-plus_svg__orange {
+    @apply fill-accent-5;
+  }
+
+  svg.decor-plus .decor-plus_svg__gray {
+    @apply fill-gray-200;
+  }
+
+  svg.decor-plus .decor-plus_svg__blue {
+    @apply fill-accent-6;
+  }
 }

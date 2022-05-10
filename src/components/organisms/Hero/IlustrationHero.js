@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function IlustrationHero() {
   return (
-    <div className="hidden lg:block w-[783px] h-[764px] pt-24 relative">
-      <div className="absolute w-[137px] h-[95px] top-44 left-40 z-30">
+    <div className="relative hidden h-[764px] w-[783px] pt-24 lg:block">
+      <div className="absolute top-44 left-40 z-30 h-[95px] w-[137px]">
         <Image
           alt="plane"
           layout="responsive"
@@ -12,7 +12,7 @@ export default function IlustrationHero() {
           src="/images/plane.png"
         />
       </div>
-      <div className="absolute w-[137px] h-[95px] top-56 right-8 z-10">
+      <div className="absolute top-56 right-8 z-10 h-[95px] w-[137px]">
         <Image
           alt="plane"
           layout="responsive"
@@ -21,7 +21,7 @@ export default function IlustrationHero() {
           src="/images/plane.png"
         />
       </div>
-      <div className="relative z-20 transform -translate-x-16">
+      <div className="relative z-20 -translate-x-16 transform">
         <Image
           alt="hero traveller"
           priority

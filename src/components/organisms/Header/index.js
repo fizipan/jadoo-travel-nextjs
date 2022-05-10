@@ -6,13 +6,13 @@ import ListItem from './ListItem';
 
 export default function Header() {
   return (
-    <div className="absolute z-20 lg:z-10 w-full py-6 lg:py-12">
-      <header className="max-w-full lg:max-w-7xl mx-auto px-4">
-        <div className="flex justify-between items-center">
+    <div className="absolute z-20 w-full py-6 lg:z-10 lg:py-12">
+      <header className="mx-auto max-w-full px-4 lg:max-w-7xl">
+        <div className="flex items-center justify-between">
           <div className="w-28">
             <Logo className="logo-style-1" />
           </div>
-          <ul className="flex items-center flex-col lg:flex-row gap-y-6 lg:gap-y-0">
+          <ul className="flex flex-col items-center gap-y-6 lg:flex-row lg:gap-y-0">
             <ListItem href="/destinations" title="Destinations" />
             <ListItem href="/hotels" title="Hotels" />
             <ListItem href="/flights" title="Flights" />
@@ -20,15 +20,15 @@ export default function Header() {
             <ListItem href="/login" title="Login" />
             <li className="">
               <Link href="/sign-up">
-                <a className="px-5 text-gray-800 py-1 border border-gray-800 rounded-md mx-3">
+                <a className="mx-3 rounded-md border border-gray-800 px-5 py-2 text-gray-800">
                   Sign up
                 </a>
               </Link>
             </li>
             <li className="">
-              <button className="px-9 text-gray-800 relative">
+              <button className="relative px-9 text-gray-800">
                 EN
-                <span className="absolute w-2 h-2 border-gray-800 border-b border-r transform rotate-45 translate-y-1/2 ml-2"></span>
+                <span className="absolute ml-2 h-2 w-2 translate-y-1/2 rotate-45 transform border-b border-r border-gray-800"></span>
               </button>
             </li>
           </ul>
